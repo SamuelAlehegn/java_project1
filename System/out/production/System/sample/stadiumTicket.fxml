@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="598.0" prefWidth="798.0" style="-fx-background-color: #FFFF;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.StadiumTicketController">
+   <children>
+      <Label alignment="CENTER" layoutX="-1.0" layoutY="1.0" prefHeight="99.0" prefWidth="800.0" style="-fx-background-color: #CECECE;" text="STADIUM TICKETS">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="99.0" fitWidth="137.0" layoutX="-1.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/vL9GGGA.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="searchButton" layoutX="629.0" layoutY="160.0" mnemonicParsing="false" onAction="#searchButtonOnAction" prefHeight="26.0" prefWidth="122.0" text="Search" />
+      <TextField fx:id="searchTextField" layoutX="399.0" layoutY="160.0" prefHeight="26.0" prefWidth="200.0" promptText="Search" />
+      <Button fx:id="cancelButton" layoutX="629.0" layoutY="540.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" prefHeight="26.0" prefWidth="121.0" text="Cancel" />
+      <Label layoutX="106.0" layoutY="218.0" prefHeight="50.0" prefWidth="216.0" text="Ethiopian Coffee Vs Fasil " textFill="#730909">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="292.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="170.0" layoutY="265.0" text="Addis Ababa Stadium">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="108.0" layoutY="302.0" prefHeight="18.0" prefWidth="50.0" text="Price" textFill="#c40202">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="108.0" layoutY="261.0" prefHeight="27.0" prefWidth="60.0" text="8:00 LT">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="148.0" layoutY="302.0" prefHeight="20.0" prefWidth="50.0" text="\$2.00">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="orderOneButton" layoutX="190.0" layoutY="300.0" mnemonicParsing="false" onAction="#orderOneButtonOnAction" text="Order" />
+      <Label layoutX="99.0" layoutY="373.0" prefHeight="50.0" prefWidth="216.0" text="Dedebit Vs Hawassa City" textFill="#730909">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="106.0" layoutY="420.0" prefHeight="27.0" prefWidth="60.0" text="8:00 LT">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="163.0" layoutY="424.0" text="Addis Ababa Stadium">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="98.0" layoutY="457.0" prefHeight="18.0" prefWidth="50.0" text="Price" textFill="#c40202">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="139.0" layoutY="457.0" prefHeight="20.0" prefWidth="50.0" text="\$2.00">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="orderThreeButton" layoutX="183.0" layoutY="454.0" mnemonicParsing="false" onAction="#orderThreeButtonOnAction" text="Order" />
+      <Label layoutX="440.0" layoutY="218.0" prefHeight="50.0" prefWidth="216.0" text="St. George Vs Bahirdar City" textFill="#730909">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="516.0" layoutY="265.0" text="Addis Ababa Stadium">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="440.0" layoutY="261.0" prefHeight="27.0" prefWidth="70.0" text="10:00 LT">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="456.0" layoutY="302.0" prefHeight="18.0" prefWidth="50.0" text="Price" textFill="#c40202">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="498.0" layoutY="302.0" prefHeight="20.0" prefWidth="50.0" text="\$2.00">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="orderTwoButton" layoutX="559.0" layoutY="300.0" mnemonicParsing="false" onAction="#orderTwoButtonOnAction" text="Order" />
+      <Label layoutX="451.0" layoutY="373.0" prefHeight="50.0" prefWidth="216.0" text="Sebeta City Vs Mekele City" textFill="#730909">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="456.0" layoutY="420.0" prefHeight="27.0" prefWidth="70.0" text="10:00 LT">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="532.0" layoutY="424.0" text="Addis Ababa Stadium">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="456.0" layoutY="457.0" prefHeight="18.0" prefWidth="50.0" text="Price" textFill="#c40202">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="498.0" layoutY="457.0" prefHeight="20.0" prefWidth="50.0" text="\$2.00">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="orderFourButton" layoutX="549.0" layoutY="454.0" mnemonicParsing="false" onAction="#orderFourButtonOnAction" text="Order" />
+      <Label layoutX="15.0" layoutY="200.0" text="Saturday Events" textFill="#f40000">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="346.0" text="Sunday Events" textFill="#f40000">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="noResultLableMessage" layoutX="400.0" layoutY="190.0" prefHeight="20.0" prefWidth="216.0" text=" ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="successAndFailLableMessage" layoutX="56.0" layoutY="116.0" prefHeight="27.0" prefWidth="486.0" textFill="RED">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

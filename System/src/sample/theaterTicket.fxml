@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="597.0" prefWidth="798.0" style="-fx-background-color: #FFFF;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TheaterTicketController">
+   <children>
+      <Label alignment="CENTER" layoutX="-1.0" prefHeight="99.0" prefWidth="798.0" style="-fx-background-color: #CECECE;" text="THEATER TICKETS">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="99.0" fitWidth="184.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/cinema.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="searchButton" layoutX="630.0" layoutY="109.0" mnemonicParsing="false" onAction="#searchButtonOnAction" prefHeight="26.0" prefWidth="122.0" text="Search" />
+      <Button fx:id="cancelButton" layoutX="650.0" layoutY="552.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" prefHeight="26.0" prefWidth="122.0" text="Cancel" />
+      <TextField fx:id="searchTextField" layoutX="398.0" layoutY="109.0" prefHeight="26.0" prefWidth="200.0" promptText="Search" />
+      <ImageView fitHeight="150.0" fitWidth="207.0" layoutX="92.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/yeTewordros eraey.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="162.0" fitWidth="152.0" layoutX="483.0" layoutY="377.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/yemistYaleh.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="174.0" fitWidth="142.0" layoutX="99.0" layoutY="371.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Babylon-Besalon.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="174.0" fitWidth="152.0" layoutX="498.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/yekokebu sew.PNG" />
+         </image>
+      </ImageView>
+      <Button fx:id="showButtonOne" layoutX="92.0" layoutY="308.0" mnemonicParsing="false" onAction="#showButtonOneOnAction" prefHeight="26.0" prefWidth="83.0" text="Order" />
+      <Button fx:id="showButtonTwo" layoutX="496.0" layoutY="321.0" mnemonicParsing="false" onAction="#showButtonTwoOnAction" prefHeight="26.0" prefWidth="83.0" text="Order" />
+      <Button fx:id="showButtonThree" layoutX="96.0" layoutY="545.0" mnemonicParsing="false" onAction="#showButtonThreeOnAction" prefHeight="26.0" prefWidth="75.0" text="Order" />
+      <Button fx:id="showButtonFour" layoutX="483.0" layoutY="539.0" mnemonicParsing="false" onAction="#showButtonFourOneOnAction" prefHeight="26.0" prefWidth="55.0" text="Order" />
+      <Label layoutX="182.0" layoutY="311.0" prefHeight="26.0" prefWidth="118.0" text="Price: $1" />
+      <Label layoutX="579.0" layoutY="321.0" prefHeight="26.0" prefWidth="75.0" text="Price: $1" />
+      <Label layoutX="175.0" layoutY="545.0" prefHeight="26.0" prefWidth="46.0" text="Price: $1" />
+      <Label layoutX="538.0" layoutY="539.0" prefHeight="26.0" prefWidth="46.0" text="Price: $1" />
+      <Label fx:id="successLabelMessage" layoutX="72.0" layoutY="106.0" prefHeight="26.0" prefWidth="299.0" />
+   </children>
+</AnchorPane>

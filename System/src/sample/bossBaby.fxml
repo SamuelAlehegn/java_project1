@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="522.0" prefWidth="670.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MovieInfoController">
+   <children>
+      <Label layoutX="53.0" layoutY="77.0" text="Title: Baby Boss">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="56.0" layoutY="211.0" text="price: $3 per Ticket" textFill="#f70606">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="197.0" layoutY="211.0" prefHeight="18.0" prefWidth="150.0" text="2 July, 2021">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="bosBabyMovieOrderButton" layoutX="63.0" layoutY="452.0" mnemonicParsing="false" onAction="#bosBabyMovieOrderButtonOnAction" text="Pre-Order" />
+      <TextField fx:id="bosBabyMovieOrderTextField" layoutX="145.0" layoutY="452.0" promptText="How money Tickets" />
+      <Label fx:id="bosBabyMovieLabel" layoutX="63.0" layoutY="19.0" prefHeight="27.0" prefWidth="450.0" textFill="#f40000">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="bosBabyMovieOrderLabel" layoutX="304.0" layoutY="451.0" prefHeight="26.0" prefWidth="325.0" textFill="#fa0000">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="bosBabyMovieBackButton" layoutX="587.0" layoutY="19.0" mnemonicParsing="false" onAction="#bosBabyMovieBackButtonOnAction" prefHeight="27.0" prefWidth="52.0" text="Back" />
+      <ImageView fitHeight="121.0" fitWidth="615.0" layoutX="55.0" layoutY="258.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/bossBabyStoryline.PNG" />
+         </image>
+      </ImageView>
+      <Label layoutX="55.0" layoutY="114.0" text="Director: Tom McGrath">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="56.0" layoutY="134.0" text="Writers: Marla Frazee (characters), Michael McCullers">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="56.0" layoutY="154.0" text="Stars: Alec Baldwin, James Marsden, Amy Sedaris">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="56.0" layoutY="174.0" text="Genres: Animation | Adventure | Comedy | Family | Fantasy">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="630.0" layoutY="270.0" prefHeight="18.0" prefWidth="34.0" style="-fx-background-color: #FFFFFF;" text=" " />
+   </children>
+</AnchorPane>

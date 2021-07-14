@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="552.0" prefWidth="774.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MovieInfoController">
+   <children>
+      <Label layoutX="55.0" layoutY="65.0" text="Title: Scoob!">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="99.0" text="Director: Tony Cervone">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="119.0" text="Writers: Adam Sztykiel (screenplay by), Jack C. Donaldson (screenplay by)">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="159.0" text="Genres: Animation | Adventure | Comedy | Family | Fantasy | Mystery | Sci-Fi">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="scoobMovieOrderButton" layoutX="55.0" layoutY="455.0" mnemonicParsing="false" onAction="#scoobMovieOrderButtonOnAction" text="Order" />
+      <Button fx:id="scoobMovieBackButton" layoutX="701.0" layoutY="24.0" mnemonicParsing="false" onAction="#scoobMovieBackButtonOnAction" prefHeight="27.0" prefWidth="52.0" text="Back" />
+      <TextField fx:id="scoobMovieOrderTextField" layoutX="122.0" layoutY="455.0" promptText="How money Tickets" />
+      <Label fx:id="scoobMovieOrderLabel" layoutX="285.0" layoutY="451.0" prefHeight="26.0" prefWidth="419.0" textFill="#fa0000">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="139.0" text="Stars: Will Forte, Mark Wahlberg, Jason Isaacs ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="scoobMovieLabel" layoutX="53.0" layoutY="9.0" prefHeight="27.0" prefWidth="450.0" textFill="#f40000">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="179.0" text="Rating: 5.7/10" textFill="RED">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="211.0" text="price: $3 per Ticket" textFill="#f70606">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="178.0" layoutY="211.0" prefHeight="18.0" prefWidth="150.0" text="8:00 LT, Hall 1">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="160.0" fitWidth="695.0" layoutX="46.0" layoutY="246.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ScoobStoryline.PNG" />
+         </image>
+      </ImageView>
+      <Label layoutX="697.0" layoutY="267.0" prefHeight="18.0" prefWidth="29.0" style="-fx-background-color: #ffff;" text=" " />
+   </children>
+</AnchorPane>

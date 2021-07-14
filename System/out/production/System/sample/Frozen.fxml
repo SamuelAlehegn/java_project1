@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="529.0" prefWidth="677.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MovieInfoController">
+   <children>
+      <Label layoutX="59.0" layoutY="218.0" text="price: $3 per Ticket" textFill="#f70606">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="74.0" text="Title: Frozen ll">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="frozenMovieOrderTextField" layoutX="142.0" layoutY="474.0" prefHeight="26.0" prefWidth="162.0" promptText="How money Tickets" />
+      <Button fx:id="frozenMovieOrderButton" layoutX="72.0" layoutY="474.0" mnemonicParsing="false" onAction="#frozenMovieOrderButtonOnAction" text="Order" />
+      <Label fx:id="frozenMovieOrderLabel" layoutX="316.0" layoutY="473.0" prefHeight="26.0" prefWidth="325.0" textFill="#fa0000">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="frozenMovieBackButton" layoutX="576.0" layoutY="20.0" mnemonicParsing="false" onAction="#frozenMovieBackButtonOnAction" prefHeight="27.0" prefWidth="52.0" text="Back" />
+      <Label layoutX="207.0" layoutY="218.0" prefHeight="18.0" prefWidth="150.0" text="8:00 LT, HALL 1">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="107.0" text="Directors: Chris Buck, Jennifer Lee">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="127.0" text="Writers: Jennifer Lee (screenplay by), Hans Christian Andersen ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="147.0" text="Stars: Kristen Bell, Idina Menzel, Josh Gad ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="187.0" text="Rating: 6.8/10" textFill="#0b0b0b">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="167.0" text="Genres: Animation | Adventure | Comedy | Family | Fantasy | Musical">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="209.0" fitWidth="635.0" layoutX="50.0" layoutY="251.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/frozenStoryline.PNG" />
+         </image>
+      </ImageView>
+      <Label fx:id="frozenMovieLabel" layoutX="69.0" layoutY="20.0" prefHeight="27.0" prefWidth="370.0" textFill="#ef0000">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

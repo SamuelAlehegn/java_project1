@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="670.0" prefWidth="800.0" style="-fx-background-color: #0000;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.cinemaTicketController">
+   <children>
+      <Label alignment="CENTER" layoutY="-4.0" prefHeight="99.0" prefWidth="800.0" style="-fx-background-color: #CECECE;" text="CINEMA TICKETS">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="104.0" fitWidth="163.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Cinema_Wallpaper.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="cancelButton" layoutX="724.0" layoutY="68.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" prefHeight="26.0" prefWidth="61.0" text="Cancel" />
+      <ImageView fitHeight="221.0" fitWidth="150.0" layoutX="49.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/angryBirds.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="showButtonOne" layoutX="49.0" layoutY="372.0" mnemonicParsing="false" onAction="#showButtonOneOnAction" prefHeight="26.0" prefWidth="149.0" text="Show" />
+      <ImageView fitHeight="228.0" fitWidth="195.0" layoutX="294.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/BadBoysForLife.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="showButtonTwo" layoutX="293.0" layoutY="372.0" mnemonicParsing="false" onAction="#showButtonTwoOnAction" prefHeight="26.0" prefWidth="155.0" text="Show" />
+      <ImageView fitHeight="221.0" fitWidth="163.0" layoutX="294.0" layoutY="420.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/BossBabyCrop.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="showButtonFive" layoutX="293.0" layoutY="638.0" mnemonicParsing="false" onAction="#showButtonFiveOnAction" prefHeight="26.0" prefWidth="163.0" text="Show" />
+      <ImageView fitHeight="221.0" fitWidth="237.0" layoutX="51.0" layoutY="417.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/SCOOB.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="showButtonFour" layoutX="49.0" layoutY="638.0" mnemonicParsing="false" onAction="#showButtonFourOnAction" prefHeight="26.0" prefWidth="154.0" text="Show" />
+      <Label layoutX="14.0" layoutY="107.0" prefHeight="18.0" prefWidth="139.0" text="TODAY EVENTS" textFill="#e70000">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="216.0" fitWidth="170.0" layoutX="558.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/dolittle.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="216.0" fitWidth="163.0" layoutX="550.0" layoutY="419.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Frozen.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="showButtonThree" layoutX="557.0" layoutY="372.0" mnemonicParsing="false" onAction="#showButtonThreeOnAction" prefHeight="26.0" prefWidth="139.0" text="Show" />
+      <Button fx:id="showButtonSix" layoutX="548.0" layoutY="638.0" mnemonicParsing="false" onAction="#showButtonSixOnAction" prefHeight="26.0" prefWidth="149.0" text="Show" />
+      <TextField fx:id="searchTextField" layoutX="532.0" layoutY="108.0" prefHeight="26.0" prefWidth="155.0" promptText="search" />
+      <Button fx:id="searchButton" layoutX="710.0" layoutY="108.0" mnemonicParsing="false" onAction="#searchButtonOnAction" text="Search" />
+      <Label fx:id="labelMessage" alignment="CENTER" layoutX="339.0" layoutY="107.0" prefHeight="27.0" prefWidth="182.0" />
+   </children>
+</AnchorPane>

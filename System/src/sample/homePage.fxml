@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="594.0" prefWidth="798.0" style="-fx-background-color: #FFFF;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.homePageController">
+   <children>
+      <Label alignment="CENTER" layoutY="-6.0" prefHeight="71.0" prefWidth="910.0" style="-fx-background-color: #CECECE;" text="WELCOME" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="84.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/digital-book.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="504.0" layoutY="133.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Cinema_Wallpaper.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="84.0" layoutY="329.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/vL9GGGA.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="504.0" layoutY="354.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/cinema.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="bookDeliveryButton" layoutX="84.0" layoutY="261.0" mnemonicParsing="false" onAction="#bookDeliveryButtonOnAction" prefHeight="26.0" prefWidth="200.0" text="BOOK DELIVERY" />
+      <Button fx:id="cinemaTicketButton" layoutX="504.0" layoutY="274.0" mnemonicParsing="false" onAction="#cinemaTicketButtonOnAction" prefHeight="26.0" prefWidth="200.0" text="CINEMA TICKETS" />
+      <Button fx:id="theaterTicketsButton" layoutX="504.0" layoutY="478.0" mnemonicParsing="false" onAction="#theaterTicketsButtonOnAction" prefHeight="26.0" prefWidth="200.0" text="THEATER TICKETS" />
+      <Button fx:id="stadiumTicketButton" layoutX="84.0" layoutY="478.0" mnemonicParsing="false" onAction="#stadiumTicketButtonOnAction" prefHeight="26.0" prefWidth="200.0" text="STADIUM TICKETS" />
+      <ImageView fitHeight="59.0" fitWidth="77.0" layoutX="7.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/img_410367.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="cancelButton" layoutX="504.0" layoutY="542.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" prefHeight="26.0" prefWidth="200.0" text="Cancel" />
+   </children>
+</AnchorPane>

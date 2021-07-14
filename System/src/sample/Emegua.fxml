@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="482.0" prefWidth="704.0" style="-fx-background-color: #FFFF;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.bookInfoController">
+   <children>
+      <ImageView fitHeight="261.0" fitWidth="704.0" layoutX="2.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/emeguaDescription.PNG" />
+         </image>
+      </ImageView>
+      <Label layoutX="195.0" layoutY="271.0" prefHeight="86.0" prefWidth="506.0" style="-fx-background-color: #FFFF;" />
+      <Label layoutX="321.0" layoutY="162.0" prefHeight="34.0" prefWidth="368.0" style="-fx-background-color: #FFFF;" />
+      <Label layoutX="615.0" layoutY="241.0" prefHeight="28.0" prefWidth="58.0" style="-fx-background-color: #FFFF;" />
+      <Label fx:id="emeguaMessageLabel" layoutX="54.0" layoutY="20.0" prefHeight="34.0" prefWidth="409.0" textFill="#fa0202">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="emeguaBackButton" layoutX="609.0" layoutY="20.0" mnemonicParsing="false" onAction="#emeguaBackButtonOnAction" prefHeight="28.0" prefWidth="58.0" text="Back" />
+      <Label fx:id="emeguaOrderLabel" layoutX="273.0" layoutY="387.0" prefHeight="34.0" prefWidth="349.0" textFill="#fa0202">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="emeguaOrderButton" layoutX="28.0" layoutY="392.0" mnemonicParsing="false" onAction="#emeguaOrderButtonOnAction" text="Order" />
+      <TextField fx:id="emeguaOrderTextField" layoutX="90.0" layoutY="392.0" promptText="How many books" />
+      <Label layoutX="21.0" layoutY="344.0" prefHeight="26.0" prefWidth="162.0" text="Price: $4.99 per book" textFill="#d70707">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="669.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MovieInfoController">
+   <children>
+      <Label layoutX="29.0" layoutY="56.0" prefHeight="37.0" prefWidth="250.0" text="Title: Bad Boys for Life">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="100.0" text="Directors: Adil El Arbi (as Adil), Bilall Fallah (as Bilall)">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="127.0" text="Writers: Peter Craig (story by), Joe Carnahan (story by)">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="153.0" text="Stars: Will Smith, Martin Lawrence, Vanessa Hudgens">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="173.0" text="Genres: Action | Comedy | Crime | Thriller">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="201.0" text="Rating: 6.6/10" textFill="RED">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="120.0" fitWidth="626.0" layoutX="14.0" layoutY="241.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/badBoysStory.PNG" />
+         </image>
+      </ImageView>
+      <Label layoutX="32.0" layoutY="221.0" text="price: $3 per Ticket" textFill="#f70606">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="601.0" layoutY="250.0" prefHeight="18.0" prefWidth="29.0" style="-fx-background-color: #ffff;" text=" " />
+      <Button fx:id="badBoysforLifeBackButton" layoutX="606.0" layoutY="14.0" mnemonicParsing="false" onAction="#badBoysforLifeBackButtonOnAction" prefHeight="26.0" prefWidth="49.0" text="Back" />
+      <Button fx:id="badBoysforLifeOrderButton" layoutX="29.0" layoutY="381.0" mnemonicParsing="false" onAction="#badBoysforLifeOrderButtonOnAction" text="Order" />
+      <TextField fx:id="badBoysforLifeOrderTextField" layoutX="100.0" layoutY="381.0" prefHeight="26.0" prefWidth="162.0" promptText="How money Tickets" />
+      <Label fx:id="badBoysforLifeLabel" layoutX="39.0" layoutY="13.0" prefHeight="27.0" prefWidth="535.0" textFill="RED">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="badBoysforLifeOrderLabel" layoutX="279.0" layoutY="381.0" prefHeight="26.0" prefWidth="299.0" text=" " textFill="#fc0000">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="162.0" layoutY="221.0" prefHeight="18.0" prefWidth="150.0" text="8:00 LT, Hall 2">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

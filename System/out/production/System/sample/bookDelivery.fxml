@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="598.0" prefWidth="798.0" style="-fx-background-color: #FFFF;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.bookDeliveryController">
+   <children>
+      <Label alignment="CENTER" layoutX="-1.0" layoutY="-2.0" prefHeight="99.0" prefWidth="798.0" style="-fx-background-color: #CECECE;" text="Book Delivery">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="106.0" fitWidth="132.0" layoutX="-1.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Digital_learning_550wide.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="searchTextField" layoutX="409.0" layoutY="127.0" prefHeight="26.0" prefWidth="200.0" promptText="Search" />
+      <Button fx:id="searchButton" layoutX="629.0" layoutY="127.0" mnemonicParsing="false" onAction="#searchButtonOnAction" prefHeight="26.0" prefWidth="121.0" text="Search" />
+      <Button fx:id="cancelButton" layoutX="690.0" layoutY="62.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" prefHeight="26.0" prefWidth="99.0" text="Cancel" />
+      <Label fx:id="noResultLableMessage" alignment="CENTER" layoutX="409.0" layoutY="153.0" prefHeight="18.0" prefWidth="342.0" text=" " textAlignment="CENTER" />
+      <Label fx:id="successAndFailLableMessage" alignment="CENTER" layoutX="33.0" layoutY="123.0" prefHeight="26.0" prefWidth="348.0" text=" " textFill="#ff0000">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="145.0" layoutX="44.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Hadis.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="132.0" layoutX="343.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/lockedkey.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="143.0" fitWidth="122.0" layoutX="619.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/jebdu.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="buyOneButton" layoutX="44.0" layoutY="329.0" mnemonicParsing="false" onAction="#buyOneButtonOnAction" prefHeight="26.0" prefWidth="113.0" text="Buy" />
+      <Button fx:id="buyThreeButton" layoutX="342.0" layoutY="329.0" mnemonicParsing="false" onAction="#buyThreeButtonOnAction" prefHeight="26.0" prefWidth="98.0" text="Buy" />
+      <Button fx:id="buyFiveButton" layoutX="618.0" layoutY="329.0" mnemonicParsing="false" onAction="#buyFiveButtonOnAction" prefHeight="26.0" prefWidth="103.0" text="Buy" />
+      <ImageView fitHeight="150.0" fitWidth="235.0" layoutX="45.0" layoutY="367.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Emegua.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="buySevenButton" layoutX="43.0" layoutY="517.0" mnemonicParsing="false" onAction="#buySevenButtonOnAction" prefHeight="26.0" prefWidth="103.0" text="Buy" />
+      <ImageView fitHeight="143.0" fitWidth="122.0" layoutX="341.0" layoutY="387.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/fikir.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="103.0" layoutX="619.0" layoutY="386.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/werisa.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="buyElevenButton" layoutX="342.0" layoutY="530.0" mnemonicParsing="false" onAction="#buyElevenButtonOnAction" prefHeight="26.0" prefWidth="98.0" text="Buy" />
+      <Button fx:id="buyTwelveButton" layoutX="621.0" layoutY="530.0" mnemonicParsing="false" onAction="#buyTwelveButtonOnAction" prefHeight="26.0" prefWidth="99.0" text="Buy" />
+   </children>
+</AnchorPane>
